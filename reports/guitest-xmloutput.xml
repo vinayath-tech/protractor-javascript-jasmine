@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="67.276">
+ <testsuite name="Checkout a dress" timestamp="2019-12-31T15:14:58" hostname="localhost" time="23.967" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Checkout a dress.Verify Checkout functionality" timestamp="2019-12-31T15:14:58" hostname="localhost" time="12.285" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Checkout a dress.Verify Checkout functionality" name="Then the dress should be successfully added to the cart" time="0.028" />
+  <testcase classname="Checkout a dress.Verify Checkout functionality" name="And I should be navigated to the checkout page" time="1.212" />
+ </testsuite>
+ <testsuite name="Checkout a dress.Delete a product" timestamp="2019-12-31T15:15:10" hostname="localhost" time="11.682" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Checkout a dress.Delete a product" name="When I remove the product" time="2.087" />
+  <testcase classname="Checkout a dress.Delete a product" name="Then the product should be successfully removed" time="0.037" />
+ </testsuite>
+ <testsuite name="Login to the ecommerce application" timestamp="2019-12-31T15:15:22" hostname="localhost" time="11.514" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Login to the ecommerce application" name="Given I am in login page" time="4.861" />
+  <testcase classname="Login to the ecommerce application" name="When I enter valid username and password" time="6.562" />
+  <testcase classname="Login to the ecommerce application" name="Then I should be able to successfully login to the application" time="0.09" />
+ </testsuite>
+ <testsuite name="Search a dress" timestamp="2019-12-31T15:15:33" hostname="localhost" time="7.828" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Search a dress" name="Given I Navigate to homepage" time="4.924" />
+  <testcase classname="Search a dress" name="When I search for a dress" time="2.796" />
+  <testcase classname="Search a dress" name="Then I should be able to see the relevant search results" time="0.108" />
+ </testsuite>
+</testsuites>
